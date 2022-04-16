@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodAppSQL</string>
+    <string name="lorem_food">50%\noffer is only for today ,so place order right now</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis scelerisque sit eu accumsan, egestas in tempus, elit tristique. Est leo convallis quisque.</string>
+    <string name="_24">$24</string>
+    <string name="popular_items">Popular items</string>
+    <string name="place_order">Place Order</string>
+</resources>

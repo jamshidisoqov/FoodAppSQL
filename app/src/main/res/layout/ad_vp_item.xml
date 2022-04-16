@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/advp_bg">
+
+        <TextView
+            android:id="@+id/tv_food_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="@string/lorem_food"
+            android:layout_toLeftOf="@id/img_food_ad"
+            android:layout_alignParentStart="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_below="@id/tv_food_add"
+            android:id="@+id/btn_food_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Order Now"
+            android:layout_toStartOf="@id/img_food_ad"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="@color/black"
+            android:textAllCaps="true"
+            android:background="@drawable/bg_btn_product" />
+
+        <ImageView
+            android:id="@+id/img_food_ad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/food"
+            android:rotationY="10"
+            android:rotationX="10"
+            android:adjustViewBounds="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

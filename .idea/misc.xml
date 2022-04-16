@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/advp_bg.xml" value="0.1715" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/bg_btn_product.xml" value="0.1715" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/bg_item_rcv.xml" value="0.1585" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/bg_order_rl.xml" value="0.1715" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/font/poppins_semibold.xml" value="0.2784615384615385" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/activity_main.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/ad_vp_item.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/food_item_rcv.xml" value="0.2" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/home_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/order_fragment.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/product_fragment.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/search_fragment.xml" value="0.2526041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
