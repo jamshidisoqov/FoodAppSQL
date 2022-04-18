@@ -2,28 +2,22 @@ package com.jamshid.foodappsql.ui.home.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.jamshid.foodappsql.R
 import com.jamshid.foodappsql.databinding.AdVpItemBinding
+import com.jamshid.foodappsql.ui.home.pager.FoodPager
 
-class FoodViewPagerAdapter : RecyclerView.Adapter<FoodViewPagerAdapter.Vh>() {
-
-    private lateinit var binding: AdVpItemBinding
-
-    class Vh(binding: AdVpItemBinding) : RecyclerView.ViewHolder(binding.root) {
-
+class FoodViewPagerAdapter(fm:FragmentManager) : FragmentStatePagerAdapter(fm){
+    override fun getCount(): Int {
+        return 5
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Vh {
-        binding = AdVpItemBinding.bind(
-            LayoutInflater.from(parent.context).inflate(R.layout.ad_vp_item, parent, false)
-        )
-        return Vh(binding)
+    override fun getItem(position: Int): Fragment {
+       return FoodPager()
     }
 
-    override fun onBindViewHolder(holder: Vh, position: Int) {
 
-    }
-
-    override fun getItemCount(): Int = 3
 }

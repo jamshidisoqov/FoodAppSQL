@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:background="#f7f7f7f"
+    android:background="#f7f7f7"
     tools:context=".ui.order.OrderFragment">
 
     <androidx.viewpager2.widget.ViewPager2

@@ -5,6 +5,7 @@ import com.jamshid.foodappsql.domain.repository.Repository
 import retrofit2.http.GET
 
 interface FoodFastApi {
-    @GET("")
+    @GET("/v1/food/all")
     suspend fun getAllFood(): List<Food>
+
 }

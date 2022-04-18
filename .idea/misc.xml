@@ -7,11 +7,13 @@
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/bg_btn_product.xml" value="0.1715" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/bg_item_rcv.xml" value="0.1585" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/bg_order_rl.xml" value="0.1715" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/ic_search.xml" value="0.1715" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.1715" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/font/poppins_semibold.xml" value="0.2784615384615385" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/activity_main.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/ad_vp_item.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/food_item_rcv.xml" value="0.2" />
-        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/home_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/home_fragment.xml" value="0.2" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/order_fragment.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/product_fragment.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/Jamshid/AndroidStudioProjects/FoodAppSQL/app/src/main/res/layout/search_fragment.xml" value="0.2526041666666667" />
@@ -23,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -17,7 +17,7 @@ class DbQueryImpl(helper: DbHelper) : DbQuery {
         cv.put(DbConstants.FOOD_NAME, food.name)
         cv.put(DbConstants.FOOD_DESC, food.name)
         cv.put(DbConstants.RATE, food.rate)
-        cv.put(DbConstants.IMG_URL, food.urlList)
+        //cv.put(DbConstants.IMG_URL, food.urlList)
         cv.put(DbConstants.AMOUNT, food.amount)
         try {
             sqLiteDatabase.insertOrThrow(DbConstants.TABLE_NAME, null, cv)

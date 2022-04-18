@@ -13,14 +13,14 @@ import kotlinx.coroutines.launch
 
 class HomeViewModel(val useCase: HomeUseCase) : ViewModel() {
 
-    private var _state:MutableStateFlow<FoodUiState> = MutableStateFlow(FoodUiState())
+    private var _state: MutableStateFlow<FoodUiState> = MutableStateFlow(FoodUiState())
     val state: StateFlow<FoodUiState> get() = _state
 
 
     init {
         viewModelScope.launch {
-            useCase.invoke().collect{
-                when(it) {
+            useCase.invoke().collect {
+                when (it) {
                     is FoodResponse.Loading -> {
                         _state.value = FoodUiState(isLoading = true)
                     }

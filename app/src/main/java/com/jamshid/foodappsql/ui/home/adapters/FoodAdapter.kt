@@ -7,6 +7,7 @@ import com.jamshid.foodappsql.R
 import com.jamshid.foodappsql.databinding.FoodItemRcvBinding
 import com.jamshid.foodappsql.domain.models.Food
 import com.jamshid.foodappsql.domain.ui_state.FoodUiState
+import com.squareup.picasso.Picasso
 
 class FoodAdapter : RecyclerView.Adapter<FoodAdapter.Vh>() {
 
@@ -16,7 +17,10 @@ class FoodAdapter : RecyclerView.Adapter<FoodAdapter.Vh>() {
     inner class Vh(var binding: FoodItemRcvBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun onBind(food: Food) {
-
+            binding.apply {
+                tvFoodName.text=food.name
+                tvFoodDesc.text=food.description
+            }
         }
     }
 
@@ -30,12 +34,12 @@ class FoodAdapter : RecyclerView.Adapter<FoodAdapter.Vh>() {
     }
 
     override fun onBindViewHolder(holder: Vh, position: Int) {
-
+        holder.onBind(foodList[position])
     }
 
-    override fun getItemCount(): Int = 20
-    fun setData(list: FoodUiState) {
-        this.foodList = list.data!!
+    override fun getItemCount(): Int = foodList.size
+    fun setData(list: List<Food>) {
+        this.foodList = list!!
         notifyDataSetChanged()
     }
 }
